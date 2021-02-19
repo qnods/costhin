@@ -32,6 +32,7 @@ title: home
                 </p>
                 <p style="word-spacing: 30px;">
                 <a href="mailto:hello@costhin.com"><img src="{{ 'assets/img/envelope.svg' | relative_url}}" class="img-fluid" height=25 width=25></a>
+                <a href="https://medium.com/costhin"><img src="{{ 'assets/img/medium.svg' | relative_url}}" class="img-fluid" height=25 width=25></a>
                 </p>
             </div>
         </div>
