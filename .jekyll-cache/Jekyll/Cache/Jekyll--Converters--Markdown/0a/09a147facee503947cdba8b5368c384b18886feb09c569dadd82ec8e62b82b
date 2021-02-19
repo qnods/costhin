@@ -1,0 +1,77 @@
+I" <!-- Main Picture -->
+<div class="container pt-3 d-lg-none">
+    <div class="row text-center">
+        <div class="col-lg-3">
+
+        </div>
+        <div class="col-lg-9">
+            <img src="/assets/img/Qnods%20Main%20Page.png" class="img-fluid" alt="responsive image" width="960" />
+        </div>
+    </div>
+</div>
+
+<!-- Content Start -->
+<div class="container pt-3">
+    <div class="row">
+
+        <div class="col-lg-3">
+            <div class="row">
+                <form action="/search.html" method="get">
+                    <input class="form-control" type="text" id="search-box" name="query" placeholder="looking for something ?" />
+                </form>
+            </div>
+            <div class="row py-5">
+                <h5>About</h5>
+                <p>
+                    <b>Costhin</b> is a collection of notes and projects for accounting and finance. 
+                </p>
+                <p style="word-spacing: 30px;">
+                <a href="mailto:hello@costhin.com"><img src="/assets/img/envelope.svg" class="img-fluid" height="25" width="25" /></a>
+                </p>
+            </div>
+        </div>
+        <div class="col-lg-9">
+            <h3>Latest Post</h3>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              
+              <div class="col">
+                    <div class="card border-0 h-100">
+                        <div class="card-body">
+                            <small class="text-muted postDate">24 January 2021</small>
+                            <h5 class="card-title"><a href="/posts/test.html" class="text-dark">Test Looks on Jupyter Lab</a></h5>
+                            <p class="card-text">This is a testing for some markdown format and inline code function with JupyterLab</p>
+                        </div>
+                    </div>
+              </div>
+              
+              <div class="col">
+                    <div class="card border-0 h-100">
+                        <div class="card-body">
+                            <small class="text-muted postDate">22 January 2021</small>
+                            <h5 class="card-title"><a href="/posts/choosing-year.html" class="text-dark">Choosing Accounting Year</a></h5>
+                            <p class="card-text">A suggestion on how to choose accounting year for your company</p>
+                        </div>
+                    </div>
+              </div>
+              
+              <div class="col">
+                    <div class="card border-0 h-100">
+                        <div class="card-body">
+                            <small class="text-muted postDate">19 January 2021</small>
+                            <h5 class="card-title"><a href="/posts/road-to-reconciliation.html" class="text-dark">Road To Reconciliation</a></h5>
+                            <p class="card-text">
+</p>
+                        </div>
+                    </div>
+              </div>
+              
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Custom JS -->
+<script type="text/javascript" src="/assets/js/custom/edward.custom.blog.js"></script>
+
+:ET

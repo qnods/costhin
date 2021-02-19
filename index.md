@@ -10,7 +10,7 @@ title: home
 
         </div>
         <div class="col-lg-9">
-            <img src="{{ 'assets/img/Qnods Main Page.png' | relative_url}}" class="img-fluid" alt="responsive image" width="960">
+            <img src="{{ 'assets/img/Costhin Main Page.png' | relative_url}}" class="img-fluid" alt="responsive image" width="960">
         </div>
     </div>
 </div>
