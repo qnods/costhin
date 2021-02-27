@@ -1,0 +1,16 @@
+I"ú<p>In the past, I have made accounting system for few companies that is created using spreadsheet as its core. Most of thems are customized according to what the company and its management team want to see in term of their financial perfomance. As I work with more companies, I improve the system bit by bit and recently as I go in depth with coding I am looking for a way to an accounting system that I have made in the past with my new interest in coding.</p>
+
+<p>Hence, I do this project out of my curiosity. I try to create accounting system on the web app for a freelancer. The web app is created using Google App Script, a derivative of JavaScript in my opinion. The database is stored on Google Sheet files and consisted of two layers of Google Sheet. After user click the submit button, the data will be store in database file and immediately will be sent to reporting file for it to be processed into various accounting report. Kindly take note whatever you see in this post is the dummy version. If you are interested to know more about the working version, feel free to email me at edward@costhin.com</p>
+
+<h4 id="the-main-interface-of-the-web-app">The main interface of the web app</h4>
+<p>As this is just for fun project, I just created this simple interface to test the data input. Once again this is a dummy web app, and whatever is inputted here will not appear on the databases that I will show later.</p>
+
+<iframe src="https://script.google.com/macros/s/AKfycbwwoafcg8nb2zKADoSGTebSPFJ1lQ7CE3kNawLMuUxn1QHYNqEwXeCb/exec" style="width:100%; height:380px;"></iframe>
+
+<h4 id="first-layer--database-file">First layer : database file</h4>
+<p>After a user has inputted the data on the web app, the data will be sent to this file first. This is also where the data can be altered if there is mistakes during the data input on the web app. And since this is built on the Google Sheet, access can be restricted either by specific row, column, cells, or even by users.</p>
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSsepZ_lzw_IJTFC7jm9M6zTtO5Ez160_XqBMdEDsavgcw5_u8SDaMaIb19PnLa9dVTjPM2cKS2kjjW/pubhtml?widget=true&amp;headers=false" style="width:100%; height:280px;"></iframe>
+
+<p><strong>Client</strong> and <strong>Vendor</strong> is quite self-explanatory. The</p>
+:ET

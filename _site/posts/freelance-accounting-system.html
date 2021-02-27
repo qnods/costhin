@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/assets/css/custom.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link type="image/xicon" href="/assets/img/Costhin%20Favicon.png" rel='shortcut icon'>
+
+    <title>Costhin - Accounting and Finance</title>
+  </head>
+  <body>
+    <!-- Navigation General -->
+    <div class="container pb-5">
+        <a class="border bg-dark border-0 text-white float-end p-2" href="https://edwardjoesoef.com">by EdwardJoesoef.com</a>
+    </div>
+    <div class="container">
+        <header class="blog-header py-5">
+            <div class="row flex-nowrap justify-content-between align-items-center">
+              <div class="col-12 d-flex justify-content-end align-items-center">
+              <a class="blog-header-logo" href="/index.html" style="text-decoration: none; color:#00CC6F">Costhin</a>
+              </div>
+            </div>
+            <div class="row flex-nowrap justify-content-between align-items-center">
+                <div class="col-12 d-flex justify-content-end align-items-center" style="text-align: right;">
+                  <a class="text-dark" href="#" style="text-decoration: none;">Accounting and Finance</a>
+                </div>
+            </div>
+        </header>
+
+        <div class="nav-scroller py-1 mb-2">
+            <nav class="nav d-flex justify-content-center">
+                <a class="p-2 link-secondary" href="/index.html">Home</a>
+                <a class="p-2 link-secondary" href="/notes.html">Notes</a>
+                <a class="p-2 link-secondary" href="/projects.html">Projects</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Highlight Content -->
+        <div class="container">
+    <div class="row pt-2 text-center py-3">
+        <div class="col-lg-2">
+
+        </div>
+        <div class="col-lg-8">
+            <small class="text-muted">27 February 2021</small>
+            <h3>Accounting System for Freelance v0.1</h3>
+        </div>
+        <div class="col-lg-2">
+
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-1">
+
+        </div>
+        <div class="col-lg-10">
+            <div class="container">
+                <p>In the past, I have made accounting system for few companies that is created using spreadsheet as its core. Most of thems are customized according to what the company and its management team want to see in term of their financial perfomance. As I work with more companies, I improve the system bit by bit and recently as I go in depth with coding I am looking for a way to an accounting system that I have made in the past with my new interest in coding.</p>
+
+<p>Hence, I do this project out of my curiosity. I try to create accounting system on the web app for a freelancer. The web app is created using Google App Script, a derivative of JavaScript in my opinion. The database is stored on Google Sheet files and consisted of two layers of Google Sheet. After user click the submit button, the data will be store in database file and immediately will be sent to reporting file for it to be processed into various accounting report. Kindly take note whatever you see in this post is the dummy version. If you are interested to know more about the working version, feel free to email me.</p>
+
+<h4 id="the-main-interface-of-the-web-app">The main interface of the web app</h4>
+<p>As this is just for fun project, I just created this simple interface to test the data input. Once again this is a dummy web app, and whatever is inputted here will not appear on the databases that I will show later.</p>
+
+<iframe src="https://script.google.com/macros/s/AKfycbwwoafcg8nb2zKADoSGTebSPFJ1lQ7CE3kNawLMuUxn1QHYNqEwXeCb/exec" style="width:100%; height:380px;"></iframe>
+
+<h4 id="first-layer--database-file">First layer : database file</h4>
+<p>After a user has inputted the data on the web app, the data will be sent to this file first. This is also where the data can be altered if there is mistakes during the data input on the web app. And since this is built on the Google Sheet, access can be restricted either by specific row, column, cells, or even by users.</p>
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSsepZ_lzw_IJTFC7jm9M6zTtO5Ez160_XqBMdEDsavgcw5_u8SDaMaIb19PnLa9dVTjPM2cKS2kjjW/pubhtml?widget=true&amp;headers=false" style="width:100%; height:280px;"></iframe>
+
+<p><strong>Client</strong> and <strong>Vendor</strong> is quite self-explanatory. The <strong>Document Log</strong> is used to collect all invoices and bills information while <strong>CashFlow Log</strong> is used to collect all cash related transaction like getting new asset, making payment, etc.</p>
+
+<h4 id="second-layer--reporting-file">Second layer : reporting file</h4>
+<p>After the data is received at database file, the data is simultaneoulsy is also sent to reporting file where it will be processed in to various accounting reports.</p>
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS19tBK0QkKC4vuU0N1CgEwPYwfjqzZnij9L7R1hRvut7iyF-JkkEGTbqoZW8s-r9LIWR6nRV9vXYjf/pubhtml?widget=true&amp;headers=false" style="width:100%; height:280px;"></iframe>
+
+<p>Most of the tabs are self-explanatory, the <strong>double entry</strong> tab is mainly used for vlookup purpose to allocate each transaction to their respective accounts on each tabs. Most of the calculations in this file is done automatically, for instance the depreciation on <strong>fixed assets</strong> will be calculated automatically before it is sent to balance sheet and profit/loss statement.</p>
+
+<h4 id="conclusion">Conclusion</h4>
+<p>Of course this is just a simple system and it can be extended further like adding multiple bank accounts, multiple currencies, various depreciation and amortization rules or expanding the projects further for calculating stocks, calculating cost of productions etc.</p>
+
+<p>This system is quite low-cost especially if you just started your business in comparison with subscription based accounting system. I have seen that the possibility to use this as a support system on medium enterprise with other systems that the companies are using. The main drawback is due to it is built on spreadsheet, as the data grow over the year, the file can be heavy on the system especially for low-spec system.</p>
+
+<p>For any questions on this project you can contact me at <strong>edward@costhin.com</strong> and please mention the project name. Thank you for reading.</p>
+
+            </div>
+        </div>
+        <div class="col-lg-1">
+
+        </div>
+    </div>
+
+    <div class="row py-5">
+        <div class="col-lg-2">
+
+
+        </div>
+        <div class="col-lg-8">
+            <h5 class="text-center">Other Projects</h5>
+            <div class="row row-cols-1 row-cols-md-3 g-4 text-center">
+                
+                <div class="col">
+                      <div class="card border-0 h-100">
+                          <div class="card-body">
+                              <small class="text-muted postDate">27 February 2021</small>
+                              <h5 class="card-title"><a href="/posts/freelance-accounting-system.html" class="text-dark">Accounting System for Freelance v0.1</a></h5>
+                              <p class="card-text">A simple project for freelance accounting system</p>
+                          </div>
+                      </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="col-lg-2">
+
+
+        </div>
+
+    </div>
+    <div class="row py-3">
+        <div class="col-lg-2">
+
+        </div>
+        <div class="col-lg-8">
+            <div class="row text-center pr-3">
+                <h5>Looking for Other Posts ?</h5>
+                <form action="/search.html" method="get">
+                    <input class="form-control" type="text" id="search-box" name="query" placeholder="type and press enter">
+                </form>
+            </div>
+        </div>
+        <div class="col-lg-2">
+
+        </div>
+
+    </div>
+    
+</div>
+
+<!-- Bootstrap CSS -->
+<link href="/assets/css/bootstrap.css" rel="stylesheet">
+    <!-- /.container -->
+
+    
+
+    <!-- Footer -->
+    <footer class="blog-footer">
+      <p>
+        <a class="blog-header-logo text-dark" style="text-decoration: none;">Costhin</a><br>
+      </p>
+      <p>
+        <a href="#"><img src="/assets/img/Up%20Arrow%20Costhin.png" class="img-fluid" height=30 width=30></a>
+      </p>
+    </footer>
+
+    
+    <!-- Bootstrap JS -->
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+
+
+    
+
+  </body>
+</html>
