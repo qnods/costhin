@@ -1,0 +1,15 @@
+I"H<h3 class="text-center">All Projects</h3>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    
+    <div class="col">
+          <div class="card border-0 h-100">
+              <div class="card-body">
+                  <small class="text-muted postDate">27 February 2021</small>
+                  <h5 class="card-title"><a href="/posts/freelance-accounting-system.html" class="text-dark">Accounting System for Freelance v0.1</a></h5>
+                  <p class="card-text">A simple project for freelance accounting system</p>
+              </div>
+          </div>
+    </div>
+    
+</div>
+:ET
