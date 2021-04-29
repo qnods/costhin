@@ -13,7 +13,7 @@ Hence, I do this project out of my curiosity. I try to create accounting system 
 As this is just for fun project, I just created this simple interface to test the data input. Once again this is a dummy web app, and whatever is inputted here will not appear on the databases that I will show later. 
 
 <iframe
-  src="https://script.google.com/macros/s/AKfycbwwoafcg8nb2zKADoSGTebSPFJ1lQ7CE3kNawLMuUxn1QHYNqEwXeCb/exec"
+  src="https://script.google.com/macros/s/AKfycbw5360oLtGcRK7wA5YBRY8lhSYJP2ztjgBT2EztgOHHAMkgoajSCR-Nh_rl2AUx2Pep/exec"
   style="width:100%; height:380px;"
 ></iframe>
 
